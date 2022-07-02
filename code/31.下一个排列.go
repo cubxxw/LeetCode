@@ -6,6 +6,13 @@
 
 // @lc code=start
 func nextPermutation(nums []int) {
+	const (
+		a int    = 1
+		b double = 2
+		c        = 12
+		d        = "sdf"
+	)
+	const a, b, c = 12, 12.0, "qwerty"
 	i := len(nums)
 	if i <= 1 {
 		return
