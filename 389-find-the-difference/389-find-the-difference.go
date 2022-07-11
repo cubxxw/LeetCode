@@ -1,10 +1,10 @@
 func findTheDifference(s string, t string) byte {
-    sum,sum1 := 0,0 //求和计数
-    for _,v := range s {
-        sum += int(v)
+    ans := byte(0)
+    for  i := range s {
+        ans ^= s[i]
     }
-    for _,v := range t {
-        sum1 += int(v)
+    for  i := range t {
+        ans ^= t[i]
     }
-    return  byte(sum1 - sum)
+    return byte(ans)
 }
