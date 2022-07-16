@@ -31,3 +31,21 @@
 	<li><code>-10<sup>4</sup> &lt;= target &lt;= 10<sup>4</sup></code></li>
 </ul>
 </div>
+```
+func searchInsert(nums []int, target int) int {
+    len := len(nums)
+    f, s := 0, len - 1
+    for f <= s {
+        mid := (f + s) >> 1  // /2
+        if target < nums[mid] {
+            s = mid - 1
+        }else if target > nums[mid] {
+            f = mid + 1
+        }else {
+            return mid
+        }
+    }
+         return f
+}
+
+```
