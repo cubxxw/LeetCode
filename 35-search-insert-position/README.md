@@ -31,6 +31,7 @@
 	<li><code>-10<sup>4</sup> &lt;= target &lt;= 10<sup>4</sup></code></li>
 </ul>
 </div>
+
 ```
 func searchInsert(nums []int, target int) int {
     len := len(nums)
@@ -47,5 +48,4 @@ func searchInsert(nums []int, target int) int {
     }
          return f
 }
-
 ```
