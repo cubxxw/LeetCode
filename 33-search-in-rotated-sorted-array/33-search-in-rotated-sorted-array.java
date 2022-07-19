@@ -5,7 +5,10 @@ class Solution {
             return -1;
         }
         if (n == 1) {
-            return nums[0] == target ? 0 : -1;
+            if(target == nums[0]){
+                return 0;
+            }
+                return -1;
         }
         int l = 0, r = n - 1;
         while (l <= r) {
