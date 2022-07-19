@@ -9,7 +9,7 @@ class Solution {
         }
         int l = 0, r = n - 1;
         while (l <= r) {
-            int mid = (l + r) / 2;
+            int mid = (l + r) >>1;
             if (nums[mid] == target) {
                 return mid;
             }
