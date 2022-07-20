@@ -1,11 +1,42 @@
 func search(nums []int, target int) int {
-// 将数组一分为二，其中一定有一个是有序的，另一个可能是有序，也能是部分有序。
-// 此时有序部分用二分法查找。无序部分再一分为二，其中一个一定有序，另一个可能有序，可能无序。就这样循环. 
-    for i,v := range nums {
-        if v ^ target == 0 {
-            //1. show ==
-            return i 
+    start, end := 0, len(nums)-1
+    for start+1 < end {
+        mid := (start+end)>>1
+        if nums[mid] > nums[len(nums)-1] {
+            start = mid
+        } else {
+            end = mid
         }
+    }
+    var minIndex int
+    if nums[start] < nums[end] {
+        minIndex = start
+    } else {
+        minIndex = end
+    }
+    if nums[minIndex] == target {
+        return minIndex
+    }
+    if target > nums[len(nums)-1] {
+        start, end = 0, minIndex
+    } else {
+        start, end = minIndex, len(nums)-1
+    }
+    for start+1 < end {
+        mid := (start+end)>>1
+        if nums[mid] == target {
+            return mid
+        } else if nums[mid] > target {
+            end = mid
+        } else {
+            start = mid
+        }
+    }
+    if nums[start] == target {
+        return start
+    }
+    if nums[end] == target {
+        return end
     }
     return -1
 }
