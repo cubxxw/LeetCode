@@ -4,7 +4,7 @@ class Solution {
             return 0;
         }
         int count = 0;
-        for(int i=0,j=grid[0].length-1; i<grid.length && j>=0;){
+        for(int i=0,j=grid[i].length-1; i<grid.length && j>=0;){
             if(grid[i][j] >= 0){
                 i++;
             }else{
