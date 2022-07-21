@@ -15,9 +15,11 @@
 	<li><code>1 &lt;= nums.length &lt;= 5 * 10<sup>4</sup></code></li>
 	<li><code>-5 * 10<sup>4</sup> &lt;= nums[i] &lt;= 5 * 10<sup>4</sup></code></li>
 </ul>
+
 </div>
 
 ### go语言sort排序
+
 ```
 func sortArray(nums []int) []int {
     sort.Ints(nums)
@@ -26,7 +28,9 @@ func sortArray(nums []int) []int {
 ```
 
 ### 冒泡排序
+
 > Go语言冒泡排序超时
+
 ```
 func sortArray(nums []int) []int {
     //sort.Ints(nums)
@@ -46,6 +50,7 @@ func sortArray(nums []int) []int {
 ```
 
 ### JavaScript冒泡和sort
+
 ```
 /**
  * @param {number[]} nums
@@ -69,13 +74,58 @@ var sortArray = function(nums) {
     }
     return nums;
 };
+
 ```
-/**
- * @param {number[]} nums
- * @return {number[]}
- */
-var sortArray = function(nums) {
-    a = nums.sort();
-    return a;
+
+**JavaScript**
+
+```
+   var sortArray = function(nums) {
+   a = nums.sort();
+   return a;
+```
+
+C++快排代码
+
+```
+class Solution {
+public:
+    void swap(vector<int>& nums,int i,int j){
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    }
+    void sort(vector<int>& nums,int start,int end){
+        if(start >= end){
+            //开始指针和最后指针走到一起
+            return;
+        }
+        int pivot = nums[start];   //选择基准点为开始的位置
+        int l = start + 1;     
+        int r = end;
+        while(l<=r){   //保证退出时不重复
+            if(nums[l] < pivot) {
+                //如果左指针比基准值要小
+                l++;
+                continue;
+            }
+            if(nums[r] >= pivot) {
+                //如果左指针比基准值要小
+                r--;
+                continue;
+            }
+            //如果都不满足 -- 左边大于或者等于，或者右边小，交换
+            swap(nums, l ,r);
+        }
+        swap(nums,start,r);
+        sort(nums,start,r - 1);
+        sort(nums,l,end);
+    }
+    vector<int> sortArray(vector<int>& nums) {
+        //快排
+        sort(nums,0,nums.size() - 1);
+        return nums;
+    }
+};
 ```
 
