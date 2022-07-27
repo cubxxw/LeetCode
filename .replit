@@ -1,5 +1,4 @@
-run = ["go", "run", "main.go"]
-entrypoint = "main.go"
+run = "go run main.go"
 
 [languages.go]
 pattern = "**/*.go"
