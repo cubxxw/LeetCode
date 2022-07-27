@@ -25,12 +25,6 @@
 <strong>Follow up:</strong> Could you solve it both recursively and iteratively?</div>
 
 ## 代码随想录解题思路介绍
-<p align="center">
-<a href="https://programmercarl.com/other/kstar.html" target="_blank">
-  <img src="https://code-thinking-1253855093.file.myqcloud.com/pics/20210924105952.png" width="1000"/>
-</a>
-<p align="center"><strong><a href="https://mp.weixin.qq.com/s/tqCxrMEU-ajQumL1i8im9A">参与本项目</a>，贡献其他语言版本的代码，拥抱开源，让更多学习算法的小伙伴们收益！</strong></p>
-
 
 
 # 101. 对称二叉树
@@ -788,4 +782,3 @@ object Solution {
 
 -----------------------
 
-<div align="center"><img src=https://code-thinking.cdn.bcebos.com/pics/01二维码一.jpg width=500> </img></div>
