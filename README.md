@@ -43,9 +43,9 @@
 
 13. [第13节 二分查找数组以及对数器使用](markdown/13.md)
 
-14. [](markdown/14.md)
+14. [第14节 KMP](markdown/14.md)
 
-15. [](markdown/15.md)
+15. [第15节 二叉树](markdown/15.md)
 
 16. [](markdown/16.md)
 
