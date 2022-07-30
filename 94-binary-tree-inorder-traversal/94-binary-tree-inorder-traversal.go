@@ -6,8 +6,7 @@
  *     Right *TreeNode
  * }
  */
-func inorderTraversal(root *TreeNode) []int {
-    var res []int 
+func inorderTraversal(root *TreeNode) (res []int) {
     var x  func(node *TreeNode)
     x = func(node *TreeNode){
         if node == nil {
@@ -19,5 +18,5 @@ func inorderTraversal(root *TreeNode) []int {
         x(node.Right)
     }
     x(root)
-    return res
+    return
 }
