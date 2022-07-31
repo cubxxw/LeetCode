@@ -16,7 +16,7 @@ class Solution {
         ListNode fort = dum;   //快指针
         
         
-        while(n-- > 0) {
+        while(fort != null && n-- > 0) {
             fort = fort.next;
         }
         ListNode pre = null;
