@@ -15,7 +15,13 @@
 </p>
 
 
-### 目录
+**[当前仓库](https://github.com/3293172751/LeetCode)下面的目录都是[LeetCode.com](https://leetcode.com)题目提交上来的，每个目录包含下面几个部分：**
+
++ NOTES.md：笔记
++ README.md：题目和解题
++ 代码
+
+## 目录
 
 1. [第1节 递归算法和时间复杂度](markdown/1.md)
 
@@ -47,17 +53,17 @@
 
 15. [第15节 二叉树](markdown/15.md)
 
-16. [](markdown/16.md)
+16. [第16节 Morris遍历](markdown/16.md)
 
-17. [](markdown/17.md)
+17. [第17节 链表题目补充](markdown/17.md)
 
-18. [](markdown/18.md)
+18. [第18节 二叉树题目补充](markdown/18.md)
 
-19. [](markdown/19.md)
+19. [第19节 图(Graph)](markdown/19.md)
 
-20. [](markdown/20.md)
+20. [第20节 图的遍历](markdown/20.md)
 
-21. [](markdown/21.md)
+21. [第21节 图的算法](markdown/21.md)
 
 22. [](markdown/22.md)
 
