@@ -17,123 +17,119 @@
 
 **[当前仓库](https://github.com/3293172751/LeetCode)下面的目录都是[LeetCode.com](https://leetcode.com)题目提交上来的，每个目录包含下面几个部分：**
 
-+ NOTES.md：笔记
-+ README.md：题目和解题
-+ 代码
++ `NOTES.md`：笔记
++ `README.md`：题目和解题
++ `java/go/python/c/cpp/js`：代码
+
+```
+格式为：400(题号) - 名称
+```
+
+
+
+**算法和数据结构笔记**
 
 ## 目录
 
-1. [第1节 递归算法和时间复杂度](markdown/1.md)
+- [x] [🔗第1节 递归算法和时间复杂度](markdown/1.md)
 
-2. [第2节 归并排序和时间复杂度](markdown/2.md)
+- [x] [🔗第2节 归并排序和时间复杂度](markdown/2.md)
 
-3. [第3节 常见的数据结构和算法](markdown/3.md)
+- [x] [🔗第3节 常见的数据结构和算法](markdown/3.md)
 
-4. [第4节 归并排序的一些案例](markdown/4.md)
+- [x] [🔗第4节 归并排序的一些案例](markdown/4.md)
 
-5. [第5节 快速排序](markdown/5.md)
+- [x] [🔗第5节 快速排序](markdown/5.md)
 
-6. [第6节 堆结构和堆排序详讲](markdown/6.md)
+- [x] [🔗第6节 堆结构和堆排序详讲](markdown/6.md)
 
-7. [第7节 桶排序](markdown/7.md)
+- [x] [🔗第7节 桶排序](markdown/7.md)
 
-8. [第8节 希尔排序](markdown/8.md)
+- [x] [🔗第8节 希尔排序](markdown/8.md)
 
-9. [第9节 hash表和有序表](markdown/9.md)
+- [x] [🔗第9节 hash表和有序表](markdown/9.md)
 
-10. [第10节 单链表数据结构](markdown/10.md)
+- [x] [🔗第10节 单链表数据结构](markdown/10.md)
 
-11. [第11节 位操作和随机函数](markdown/11.md)
+- [x] [🔗第11节 位操作和随机函数](markdown/11.md)
 
-12. [第12节 链表](markdown/12.md)
+- [x] [🔗第12节 链表](markdown/12.md)
 
-13. [第13节 二分查找数组以及对数器使用](markdown/13.md)
+- [x] [🔗第13节 二分查找数组以及对数器使用](markdown/13.md)
 
-14. [第14节 KMP](markdown/14.md)
+- [x] [🔗第14节 KMP](markdown/14.md)
 
-15. [第15节 二叉树](markdown/15.md)
+- [x] [🔗第15节 二叉树](markdown/15.md)
 
-16. [第16节 Morris遍历](markdown/16.md)
+- [x] [🔗第16节 Morris遍历](markdown/16.md)
 
-17. [第17节 链表题目补充](markdown/17.md)
+- [x] [🔗第17节 链表题目补充](markdown/17.md)
 
-18. [第18节 二叉树题目补充](markdown/18.md)
+- [x] [🔗第18节 二叉树题目补充](markdown/18.md)
 
-19. [第19节 图(Graph)](markdown/19.md)
+- [x] [🔗第19节 图(Graph)](markdown/19.md)
 
-20. [第20节 图的遍历](markdown/20.md)
+- [x] [🔗第20节 图的遍历](markdown/20.md)
 
-21. [第21节 图的算法](markdown/21.md)
+- [x] [🔗第21节 图的算法](markdown/21.md)
 
-22. [](markdown/22.md)
+- [ ] [🔗](markdown/22.md)
 
-23. [](markdown/23.md)
+- [ ] [🔗](markdown/23.md)
 
-24. [](markdown/24.md)
+- [ ] [🔗](markdown/24.md)
 
-25. [](markdown/25.md)
+- [ ] [🔗](markdown/25.md)
 
-26. [](markdown/26.md)
+- [ ] [🔗](markdown/26.md)
 
-27. [](markdown/27.md)
+- [ ] [🔗](markdown/27.md)
 
-28. [](markdown/28.md)
+- [ ] [🔗](markdown/28.md)
 
-29. [](markdown/29.md)
+- [ ] [🔗](markdown/29.md)
 
-30. [](markdown/30.md)
+- [ ] [🔗](markdown/30.md)
 
-31. [](markdown/31.md)
+- [ ] [🔗](markdown/31.md)
 
-32. [](markdown/32.md)
+- [ ] [🔗](markdown/32.md)
 
-33. [](markdown/33.md)
+- [ ] [🔗](markdown/33.md)
 
-34. [](markdown/34.md)
+- [ ] [🔗](markdown/34.md)
 
-35. [](markdown/35.md)
+- [ ] [🔗](markdown/35.md)
 
-36. [](markdown/36.md)
+- [ ] [🔗](markdown/36.md)
 
-37. [](markdown/37.md)
+- [ ] [🔗](markdown/37.md)
 
-38. [](markdown/38.md)
+- [ ] [🔗](markdown/38.md)
 
-39. [](markdown/39.md)
+- [ ] [🔗](markdown/39.md)
 
-40. [](markdown/40.md)
+- [ ] [🔗](markdown/40.md)
 
-41. [](markdown/41.md)
+- [ ] [🔗](markdown/41.md)
 
-42. [](markdown/42.md)
+- [ ] [🔗](markdown/42.md)
 
-43. [](markdown/43.md)
+- [ ] [🔗](markdown/43.md)
 
-44. [](markdown/44.md)
+- [ ] [🔗](markdown/44.md)
 
-45. [](markdown/45.md)
+- [ ] [🔗](markdown/45.md)
 
-46. [](markdown/46.md)
+- [ ] [🔗](markdown/46.md)
 
-47. [](markdown/47.md)
+- [ ] [🔗](markdown/47.md)
 
-48. [](markdown/48.md)
+- [ ] [🔗](markdown/48.md)
 
-49. [](markdown/49.md)
+- [ ] [🔗](markdown/49.md)
 
-50. [](markdown/50.md)
-
-
-
-
-
-
-
-
-
-
-
-
+- [ ] [🔗](markdown/50.md)
 
 
 
