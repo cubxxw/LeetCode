@@ -5,7 +5,7 @@
  * @LastEditTime: 2022-10-26 20:54:26
  * @FilePath: \coded:\文档\git\LeetCode\leetcode\2089.找出数组排序后的目标下标.go
  * @Github_Address: https://github.com/3293172751/cs-awesome-Block_Chain
- * Copyright (c) 2022 by xiongxinwei 3293172751nss@gmail.com, All Rights Reserved. @blog: http://nsddd.top
+ * Copyright (c) 2022 by xiongxinwei 3293172751nss@gmail.com, All Rights Reserved. @blog: http://cubxxw.com
  */
 /*
  * @lc app=leetcode.cn id=2089 lang=golang

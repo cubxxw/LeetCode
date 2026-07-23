@@ -5,7 +5,7 @@
  * @LastEditTime: 2022-10-25 20:55:36
  * @FilePath: \leetcode\66.加一.go
  * @Github_Address: https://github.com/3293172751/cs-awesome-Block_Chain
- * Copyright (c) 2022 by xiongxinwei 3293172751nss@gmail.com, All Rights Reserved. @blog: http://nsddd.top
+ * Copyright (c) 2022 by xiongxinwei 3293172751nss@gmail.com, All Rights Reserved. @blog: http://cubxxw.com
  */
 /*
  * @lc app=leetcode.cn id=66 lang=golang

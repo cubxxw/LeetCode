@@ -61,7 +61,7 @@ func main() {
 		write.WriteString("+ [回到目录](../README.md)\n")
 		write.WriteString("+ [回到项目首页](../../README.md)\n")
 		write.WriteString("+ [上一节](" + a3 + ".md)\n")
-		write.WriteString("> ❤️💕💕算法学习笔记和LeetCode的刷题笔记与记录。Myblog:[http://nsddd.top](http://nsddd.top/)\n")
+		write.WriteString("> ❤️💕💕算法学习笔记和LeetCode的刷题笔记与记录。Myblog:[http://cubxxw.com](http://cubxxw.com/)\n")
 		write.WriteString("---\n")
 		write.WriteString("[TOC]\n")
 		for i := 0; i < 5; i++ {

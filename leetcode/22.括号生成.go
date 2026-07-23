@@ -5,7 +5,7 @@
  * @LastEditTime: 2022-09-30 23:12:36
  * @FilePath: \HTMLd:\文档\git\LeetCode\leetcode\22.括号生成.go
  * @Github_Address: https://github.com/3293172751/cs-awesome-Block_Chain
- * Copyright (c) 2022 by xiongxinwei 3293172751nss@gmail.com, All Rights Reserved. @blog: http://nsddd.top
+ * Copyright (c) 2022 by xiongxinwei 3293172751nss@gmail.com, All Rights Reserved. @blog: http://cubxxw.com
  */
 /*
  * @lc app=leetcode.cn id=22 lang=golang

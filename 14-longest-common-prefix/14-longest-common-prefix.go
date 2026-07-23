@@ -5,7 +5,7 @@
  * @LastEditTime: 2022-10-07 21:08:42
  * @FilePath: \coded:\文档\git\LeetCode\leetcode\14.最长公共前缀.go
  * @Github_Address: https://github.com/3293172751/cs-awesome-Block_Chain
- * Copyright (c) 2022 by xiongxinwei 3293172751nss@gmail.com, All Rights Reserved. @blog: http://nsddd.top
+ * Copyright (c) 2022 by xiongxinwei 3293172751nss@gmail.com, All Rights Reserved. @blog: http://cubxxw.com
  */
 /*
  * @lc app=leetcode.cn id=14 lang=golang

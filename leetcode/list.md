@@ -2,7 +2,7 @@
 
 ---
 
->   😶‍🌫️博客地址：[https://nsddd.top](https://nsddd.top)  
+>   😶‍🌫️博客地址：[https://cubxxw.com](https://cubxxw.com)  
 >
 >   >   ❤️❤️💕 区块链技术、Golang、数据结构、C/C++、MySQL、python
 >
